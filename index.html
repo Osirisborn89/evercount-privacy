@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EverCount — Privacy Policy</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+    background: #0A0A0B;
+    color: #F5EBD8;
+    line-height: 1.6;
+    padding: 60px 24px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+  }
+  h1 span { color: #C9A96E; }
+  .lede {
+    color: #B5A88C;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #C9A96E;
+    margin: 36px 0 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+  p { margin-bottom: 14px; color: #F5EBD8; }
+  ul { padding-left: 20px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; }
+  strong { color: #FCD34D; font-weight: 600; }
+  a { color: #C9A96E; text-decoration: none; border-bottom: 1px solid rgba(201,169,110,0.3); }
+  a:hover { border-bottom-color: #C9A96E; }
+  .footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid #2a2418;
+    color: #B5A88C;
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Ever<span>Count</span> — Privacy Policy</h1>
+<p class="lede">Last updated: 25 April 2026 · Effective: at launch</p>
+
+<h2>The short version</h2>
+<p><strong>EverCount collects no personal data.</strong> Everything stays on your device. No analytics, no tracking, no advertising, no servers we control. We genuinely cannot see what events you create, what photos you pick, or how you use the app.</p>
+
+<h2>What stays on your device</h2>
+<ul>
+  <li><strong>Your events</strong> (titles, dates, categories, accent colours, theme picks) — stored in the app's local database.</li>
+  <li><strong>Your photo backgrounds</strong> — copied from your gallery into the app's private file storage. They never leave your device.</li>
+  <li><strong>Your settings</strong> (haptics, reduced motion, default milestones, premium status) — stored in the app's local preferences.</li>
+  <li><strong>JSON backups</strong> — created only when you tap "Export" in Settings. They go where you choose (your Downloads folder, Google Drive, etc.). EverCount itself never reads or transmits them.</li>
+</ul>
+
+<h2>Third parties</h2>
+<p>EverCount uses these Google services as part of normal Android app operation:</p>
+<ul>
+  <li><strong>Google Play Billing</strong> — only used when you tap "Unlock Premium." Google receives the purchase request and confirms it. We receive a one-time purchase token saying "this user paid." We do not see your payment details.</li>
+  <li><strong>Google Fonts (downloadable)</strong> — Sora and Inter typefaces are downloaded once and cached on your device. Google's font provider receives the font name request. No personal data is shared.</li>
+  <li><strong>Google Play Services</strong> — required by the Android OS itself. EverCount does not integrate with Play Services beyond what Android needs to run apps.</li>
+</ul>
+<p>That is the complete list. There is no Firebase, no analytics SDK, no crash reporter, no ad network, no cross-device sync, no cloud backup tied to your EverCount account (because there is no EverCount account).</p>
+
+<h2>Permissions we ask for</h2>
+<ul>
+  <li><strong>POST_NOTIFICATIONS</strong> — to send the milestone alerts you configure (30 days out, 7 days out, etc.). You can revoke this any time in Android Settings.</li>
+  <li><strong>READ_MEDIA_IMAGES</strong> (Android 13+) / <strong>READ_EXTERNAL_STORAGE</strong> (older) — only when you tap "Use your own photo" to pick a background image. We use the modern Photo Picker which doesn't grant the app access to your full gallery.</li>
+  <li><strong>VIBRATE</strong> — to play haptic patterns when a milestone fires.</li>
+  <li><strong>SCHEDULE_EXACT_ALARM</strong> — to fire your milestone notifications at the exact times you set (rather than whenever Android batches background work).</li>
+</ul>
+
+<h2>Children</h2>
+<p>EverCount has no age-restricted content and no social features. The app is suitable for all ages. We do not knowingly collect anything from anyone (children included), because we do not collect anything at all.</p>
+
+<h2>Changes to this policy</h2>
+<p>If a future version of EverCount ever adds a feature that touches data we don't currently touch (e.g. optional cloud sync), this page will be updated <em>before</em> the feature ships, and the updated version will appear in the app's release notes. The current commitment is that we don't have any plans to do so.</p>
+
+<h2>Contact</h2>
+<p>Privacy questions, takedown requests, or general feedback:</p>
+<p><a href="mailto:osirisbornstudio@gmail.com">osirisbornstudio@gmail.com</a></p>
+
+<div class="footer">
+  EverCount is built and operated as a one-person studio by Day Shaw, trading as <strong>Osirisborn Studio</strong>, based in the United Kingdom. The app is distributed via the Google Play Store. This page is hosted on GitHub Pages.
+</div>
+
+</div>
+</body>
+</html>
