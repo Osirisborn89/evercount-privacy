@@ -79,7 +79,7 @@
 <h2>Permissions we ask for</h2>
 <ul>
   <li><strong>POST_NOTIFICATIONS</strong> — to send the milestone alerts you configure (30 days out, 7 days out, etc.). You can revoke this any time in Android Settings.</li>
-  <li><strong>READ_MEDIA_IMAGES</strong> (Android 13+) / <strong>READ_EXTERNAL_STORAGE</strong> (older) — only when you tap "Use your own photo" to pick a background image. We use the modern Photo Picker which doesn't grant the app access to your full gallery.</li>
+  <li><strong>READ_MEDIA_IMAGES</strong> — only when you tap "Use your own photo" to pick a background image. We use Android's Photo Picker; the app only receives the single image you select, never broader gallery access.</li>
   <li><strong>VIBRATE</strong> — to play haptic patterns when a milestone fires.</li>
   <li><strong>SCHEDULE_EXACT_ALARM</strong> — to fire your milestone notifications at the exact times you set (rather than whenever Android batches background work).</li>
 </ul>
